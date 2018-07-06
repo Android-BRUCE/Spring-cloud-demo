@@ -11,8 +11,12 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author: Brucezheng
  * @create: 2018-06-30 10:56
  **/
-@FeignClient(value = "service-hi")
+
+/**
+ * 加入 fallback = SchedualServiceHiHystric.class 实现段路调用的类
+ */
+@FeignClient(value = "service-hi", fallback = SchedualServiceHiHystric.class)
 public interface SchedualServiceHi {
-    @RequestMapping(value = "/hi",method = RequestMethod.GET)
+    @RequestMapping(value = "/hi", method = RequestMethod.GET)
     String sayHiFromClientOne(@RequestParam(value = "name") String name);
 }

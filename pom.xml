@@ -11,6 +11,9 @@
         <module>eureka-client</module>
         <module>eureka-ribbo</module>
         <module>eureka-feign</module>
+        <module>service-zuul</module>
+        <module>config-server</module>
+        <module>config-client</module>
     </modules>
     <packaging>pom</packaging>
 
