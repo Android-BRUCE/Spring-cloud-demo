@@ -15,6 +15,7 @@
         <module>config-server</module>
         <module>config-client</module>
         <module>eureka-server-config</module>
+        <module>config-client-8882</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -6,7 +6,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @program: eureka-demo
- * @description:
+ * @description: 配置的服务的注册中心
  * @author: Brucezheng
  * @create: 2018-07-06 14:48
  **/
